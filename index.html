@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Лялин Владимир Сергеевич">
+	<title>Popup</title>
+	<!-- мой CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="popup.css">
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+  </head>
+  <body>
+	<div class="wrapper"> <!-- ОБЯЗАТЕЛЬНО (ОН ПРОПИСАН В JS) -->
+		
+		<main class="page page-home">
+			<section class="page__main-block main-block">
+				<div class="main-block__container">
+					
+					<a href="#popup" class="js-popup-link">Open popup</a>
+				
+				</div>
+
+			</section>
+		</main>
+	
+		<footer class="footer">
+			<div class="footer__container">
+				<span>Лялин Владимир Сергеевич</span>
+			</div>
+		</footer>
+		
+	</div>
+
+	<div id="popup" class="popup">
+		<div class="popup-body">
+			<div class="popup-content">
+				<div class="popup-header">
+					<h2 class="popup-title">Заголовок popup</h2>
+					<button class="popup-button popup-close js-close-popup"></button>
+				</div>
+				<div class="popup-block__text">
+					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus voluptates debitis ad aliquid 
+						veritatis sit ipsam numquam accusamus placeat architecto nobis mollitia atque earum sapiente, optio 
+						consequuntur pariatur fugit vel odio, eveniet consequatur. Culpa, sequi!</p>
+				</div>
+				<div class="popup-footer">
+					Если нужен footer
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="./popups.js"></script>
+  </body>
+</html>
