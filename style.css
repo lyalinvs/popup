@@ -33,7 +33,20 @@ body{
     box-sizing: content-box;
 }
 
+.footer{
+	height: 2.25rem;
+}
+.footer__container{
+	height: 100%;
+}
 .footer__container span{
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 500;
+}
+.footer__copyright{
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
